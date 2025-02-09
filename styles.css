@@ -505,3 +505,196 @@ footer{
     margin-bottom: 0px;
 }
 
+@media (max-width: 600px) {
+ 
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        position:static;
+        margin-bottom: 0px;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .logo {
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin: 5px 0;
+        display: block;
+    }
+
+    .dropdown {
+        width: 100%;
+        text-align: center;
+    }
+
+    .payment {
+        margin-left: 0;
+        text-align: center;
+        width: 60%;
+        margin-top: 10px;
+    }
+
+  
+    .cover {
+        margin-top: 0%;
+        height: auto;
+    }
+
+    .cover-img {
+        min-height: 250px;
+        height: auto;
+    }
+
+    .cover-img img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .journey {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .journey-transformation {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .journey-innomatics {
+        align-items: center;
+    }
+
+    .journey-types-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .journey-redirect {
+        display: flex;
+        justify-content: center;
+    }
+
+    .journey-redirect a {
+        width: 80%;
+        text-align: center;
+    }
+
+  
+    .courses-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        width: 90%;
+    }
+
+    .overall-advantages {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .advantages {
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .advantages-list {
+        width: 90%;
+    }
+
+    .video-bite {
+        align-items: center;
+    }
+
+    .clip-button {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .testimonals {
+        width: 100%;
+    }
+
+    .testimonals-data {
+        width: 95%;
+    }
+
+    .testimonals-img {
+        height: auto;
+    }
+
+    .testimonals-img img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonals-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonals-button a {
+        width: 80%;
+        text-align: center;
+    }
+
+    .success-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .success1 {
+        width: 80%;
+        height: auto;
+    }
+
+    .blogs-data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog1 {
+        width: 90%;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .contact-features,
+    .contact-courses,
+    .contact-information {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .contact-courses a {
+        text-align: center;
+    }
+
+   
+    footer {
+        font-size: 14px;
+    }
+}
